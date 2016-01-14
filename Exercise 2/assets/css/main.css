@@ -1,0 +1,60 @@
+<style>
+/*Base*/
+html, body{
+	height:100%;
+
+}
+body{
+	background-image :url("images/image6.jpg");
+}
+h1{
+	font-size:200px;
+	font-family: Avenir;
+  color:#ff00ff;
+
+}
+div{
+	background-color: #ff00ff;
+	height:100px;
+	width:50px;
+	display:inline-block;
+	padding:20px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 1024px) {
+
+  body { background-image :url("images/image2.jpg"); }
+  h1 { font-size: 150px; }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  body { background-image :url("images/image5.jpg"); }
+  h1 { font-size: 130px; }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  body { background-image :url("images/image4.jpg"); }
+  h1 { font-size: 100px; }
+
+}
+
+@media screen and (max-width: 480px) {
+  
+  body { background-image :url("images/image5.jpg"); }
+  h1 { font-size: 70px; }
+  div { display: block; }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  body { background-image :url("images/image6.jpg");}
+  h1 { font-size: 50px; }
+
+}
