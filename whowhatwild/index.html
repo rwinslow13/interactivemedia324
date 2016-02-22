@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drawin' Slots</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+<style>
+
+
+	* { box-sizing: border-box; }
+	li, ul { padding: 0; margin:0; }
+	input {
+		margin: 4px 0;
+		font-family: Arial, sans-serif;
+		font-size: 16px;
+		padding: 5px 4px 4px;
+		height: 100px;
+		width: 250px;
+        border: yellow solid 3px;
+        border-radius: 5px;
+	}
+	#slot li {
+		font-family: Arial, sans-serif;
+		font-size: 16px;
+		padding: 6px 4px 6px 6px;
+		line-height: normal;
+		height: 30px;
+		overflow: hidden;
+	}
+	
+	#slot_wrapper_who {
+		position: relative;
+        float: left;
+        top:400px;
+        left:150px;
+	}
+
+    #slot_wrapper_what {
+        position: relative;
+        float: left;
+        top:400px;
+         left:150px;
+
+    }
+
+
+    #slot_wrapper_wild {
+        position: relative;
+        float: left;
+        top:400px;
+         left:150px;
+    }
+
+    #random_location_who{
+        position: relative;
+        float: left;
+        top:600px;
+      
+
+    }
+
+    #random_location_what{
+        position: relative;
+        float: left;
+        top:600px;
+        
+
+    }
+    #random_location_wild{
+        position: relative;
+        float: left;
+        top:600px;
+        
+
+    }
+
+
+
+	.jSlots-wrapper_who {
+		margin: 4px 0;
+    	overflow: hidden; /* to hide the magic */
+    	height: 29px; /* whatever the height of your list items are */
+    	width: 100px;
+    	position: absolute;
+    	top: 0px;
+    	display: inline-block;
+	}
+        .jSlots-wrapper_what {
+        margin: 4px 0;
+        overflow: hidden; /* to hide the magic */
+        height: 29px; /* whatever the height of your list items are */
+        width: 100px;
+        position: absolute;
+        top: 0px;
+        display: inline-block;
+    }
+        .jSlots-wrapper_wild {
+        margin: 4px 0;
+        overflow: hidden; /* to hide the magic */
+        height: 29px; /* whatever the height of your list items are */
+        width: 100px;
+        position: absolute;
+        top: 0px;
+        display: none;
+    }
+	
+	#slot_who {
+		display:inline-block;
+	}
+    #slot_what {
+        display:inline-block;
+    }
+    #slot_wild {
+        display:inline-block;
+    }
+ 
+
+
+	
+</style>
+
+</head>
+
+<body>
+
+        <div class="neon">
+            
+                    <div class="neon blue">
+                        <div class="neon pink"></div>
+                            
+                                <div class="logo"> 
+                                <img class="top" src="images/slotslogo2.png">
+                                </div>
+
+
+<body>
+
+
+
+	<div id="slot_wrapper_who">
+    <input class="search_who" type="text">
+    <div style="display: none;" class="jSlots-wrapper_who">
+    	<ul style="position: relative; display: block; top: -30px;" id="slot_who">
+    		<li></li>
+    		<li index="40">fat</li>
+    		<li index="24">wake</li>
+    		<li index="1">dog</li>
+    		<li index="18">in</li>
+    		<li index="19">blue</li>
+    		<li index="18">pants</li>
+    		<li index="11">MA</li>
+    		<li index="4">WV</li>
+    		<li index="13">ID</li>
+    		<li index="19">OR</li>
+    		<li index="31">IN</li>
+    		<li index="1">AL</li>
+    		<li index="9">VA</li>
+    		<li index="46">WA</li>
+    		<li index="11">GA</li>
+    		<li index="26">WV</li>
+    		<li index="25">GA</li>
+    		<li index="5">ID</li>
+    		<li index="17">TX</li>
+    		<li index="17">X</li>
+    		<li index="40">fat</li>
+    		<li index="24">wake</li>
+    		<li index="1">dog</li>
+    		<li index="17">TX</li>
+    		<li index="17">X</li>
+    		<li index="40">fat</li>
+    		<li index="24">wake</li>
+    		<li index="1">dog</li>
+			<li index="40">fat</li>
+    		<li index="24">wake</li>
+    		<li index="1">dog</li>
+    		<li index="18">in</li>
+    		<li index="19">blue</li>
+    		<li index="18">pants</li>
+    		<li index="11">MA</li>
+    		<li index="4">WV</li>
+    		<li index="13">ID</li>
+    		<li index="19">OR</li>
+    		<li index="31">IN</li>
+    		<li index="1">AL</li>
+    		<li index="9">VA</li>
+    		<li index="46">WA</li>
+    		<li index="11">GA</li>
+    		<li index="26">WV</li>
+    		<li index="25">GA</li>
+    		<li index="5">ID</li>
+    		<li index="17">TX</li>
+    		<li index="17">X</li>
+    		<li index="40">fat</li>
+    		<li index="24">wake</li>
+    		<li index="1">dog</li>
+    		<li index="17">TX</li>
+    		<li index="17">X</li>
+    		<li index="40">fat</li>
+    		<li index="24">wake</li>
+    		<li index="1">dog</li>	
+    		<li index="40">fat</li>
+    		<li index="24">wake</li>
+    		<li index="1">dog</li>
+    		<li index="18">in</li>
+    		<li index="19">blue</li>
+    		<li index="18">pants</li>
+    		<li index="11">MA</li>
+    		<li index="4">WV</li>
+    		<li index="13">ID</li>
+    		<li index="19">OR</li>
+    		<li index="31">IN</li>
+    		<li index="1">AL</li>
+    		<li index="9">VA</li>
+    		<li index="46">WA</li>
+    		<li index="11">GA</li>
+    		<li index="26">WV</li>
+    		<li index="25">GA</li>
+    		<li index="5">ID</li>
+    		<li index="17">TX</li>
+    		<li index="17">X</li>
+    		<li index="40">fat</li>
+    		<li index="24">wake</li>
+    		<li index="1">dog</li>
+    		<li index="17">TX</li>
+    		<li index="17">X</li>
+    		<li index="40">fat</li>
+    		<li index="24">wake</li>
+    		<li index="1">dog</li>	
+    		<li index="40">fat</li>
+    		<li index="24">wake</li>
+    		<li index="1">dog</li>
+    		<li index="18">in</li>
+    		<li index="19">blue</li>
+    		<li index="18">pants</li>
+    		<li index="11">MA</li>
+    		<li index="4">WV</li>
+    		<li index="13">ID</li>
+    		<li index="19">OR</li>
+    		<li index="31">IN</li>
+    		<li index="1">AL</li>
+    		<li index="9">VA</li>
+    		<li index="46">WA</li>
+    		<li index="11">GA</li>
+    		<li index="26">WV</li>
+    		<li index="25">GA</li>
+    		<li index="5">ID</li>
+    		<li index="17">TX</li>
+    		<li index="17">X</li>
+    		<li index="40">fat</li>
+    		<li index="24">wake</li>
+    		<li index="1">dog</li>
+    		<li index="17">TX</li>
+    		<li index="17">X</li>
+    		<li index="40">fat</li>
+    		<li index="24">wake</li>
+    		<li index="1">dog</li>
+    	
+    	</ul>
+    </div>
+</div>
+
+<button type="button" id="random_location_who">Spin</button>
+
+<script src="js/jquery.js"></script>
+<script src="js/underscore.js"></script>
+<script src="js/jquery.jSlots_who.js"></script>
+<script>
+
+$(function() {
+
+	var msa = [
+			{ name: "Audrey Hepburn" },
+            { name: "Adam Levine" },
+            { name: "Adele" },
+            { name: "Afflac Duck" },
+            { name: "Alicia Keys" },
+            { name: "Amanda Bynes" },
+            { name: "Amy Winehouse" },
+            { name: "Angelina Jolie" },
+            { name: "Anne Hathaway" },
+            { name: "Ashley Olsen" },
+            { name: "Ashton Kutcher" },
+            { name: "Avril Lavigne" },
+            { name: "Betty White" },
+            { name: "Ben Affleck" },
+            { name: "Beyonce Knowles" },
+            { name: "Blake Lively" },
+            { name: "Blake Shelton" },
+            { name: "Brad Paisley" },
+            { name: "The Beach Boys" },
+            { name: "Barbara Walters" },
+            { name: "Bob Ross" },
+            { name: "Bill Clinton" },
+            { name: "The Beatles" },
+            { name: "Bernie Sanders" },
+            { name: "Brad Pitt" },
+            { name: "Bradley Cooper" },
+            { name: "Britney Spears" },
+            { name: "Bruce Springsteen" },
+            { name: "Celine Dion" },
+            { name: "Cameron Diaz" },
+            { name: "Carrie Underwood" },
+            { name: "Cait Jenner" },
+            { name: "Channing Tatum" },
+            { name: "Chris Brown" },
+            { name: "Chris Hemsworth" },
+            { name: "Christian Bale" },
+            { name: "Christina Aguilera" },
+            { name: "Clay Aiken" },
+            { name: "Colin Firth" },
+            { name: "Courtney Cox" },
+            { name: "Dakota Fanning" },
+            { name: "Diana Ross" },
+            { name: "Dick Cheney" },
+            { name: "Donald Trump" },
+            { name: "Daniel Radcliffe" },
+            { name: "David Beckham" },
+            { name: "Demi Lovato" },
+            { name: "Demi Moore" },
+            { name: "Denzel Washington" },
+            { name: "Drew Carey" },
+            { name: "Diddy" },
+            { name: "Drew Barrymore" },
+            { name: "Ed Westick" },
+            { name: "Ellen DeGeneres" },
+            { name: "Emily Blunt" },
+            { name: "Elizabeth Taylor" },
+            { name: "Emma Watson" },
+            { name: "Eva Longoria" },
+            { name: "Faith Hill" },
+            { name: "Fergie" },
+            { name: "Frank Sinatra" },
+            { name: "George Clooney" },
+            { name: "George Bush" },
+            { name: "Gerard Butler" },
+            { name: "Gwen Stefani" },
+            { name: "Grace Kelly" },
+            { name: "Gwyneth Paltrow" },
+            { name: "Halle Berry" },
+            { name: "Heath Ledger" },
+            { name: "Hilary Clinton" },
+            { name: "Heidi Klum" },
+            { name: "Hilary Duff" },
+            { name: "Hugh Jackman" },
+            { name: "Jake Gyllenhaal" },
+            { name: "James Franco" },
+            { name: "Jennifer Aniston" },
+            { name: "Janet Jackson" },
+            { name: "Jerry Seinfeld" },
+            { name: "Jennifer Lopez" },
+            { name: "Jessica Biel" },
+            { name: "Jessica Simpson" },
+            { name: "John Kerry" },
+            { name: "John Lennon" },
+            { name: "John F. Kennedy" },
+            { name: "John Krasinski" },
+            { name: "John Mayer" },
+            { name: "Jonny Depp" },
+            { name: "Jonas Brothers" },
+            { name: "Jude Law" },
+            { name: "Julia Roberts" },
+            { name: "Justin Bieber" },
+            { name: "Justin Timberlake" },
+            { name: "Kanye West" },
+            { name: "Kate Hudson" },
+            { name: "Kate Middelton" },
+            { name: "Kate Winslet" },
+            { name: "Katherine Heigl" },
+            { name: "Katie Holmes" },
+            { name: "Katy Perry" },
+            { name: "Keanu Reeves" },
+            { name: "Keith Urban" },
+            { name: "Kelly Clarkson" },
+            { name: "Kelly Ripa" },
+            { name: "Khloe Kardashian" },
+            { name: "Kourtney Kardashian" },
+            { name: "Kylie Kardashian" },
+            { name: "Kendall Kardashian" },
+            { name: "Kristin Bell" },
+            { name: "Kristin Stewart" },
+            { name: "Little Richard" },
+            { name: "Lady Gaga" },
+            { name: "Leonardo DiCaprio" },
+            { name: "Lindsey Lohan" },
+            { name: "Liv Tyler" },
+            { name: "Madonna" },
+            { name: "Mandy Moore" },
+            { name: "Mariah Carey" },
+            { name: "The Monkeys" },
+            { name: "Marilyn Monroe" },
+            { name: "Mary-Kate Olsen" },
+            { name: "Matthew McConaughey" },
+            { name: "Megan Fox" },
+            { name: "Michelle Obama" },
+            { name: "Michael Buble" },
+            { name: "Michael Scott" },
+            { name: "Mila Kunis" },
+            { name: "Miley Cyrus" },
+            { name: "Miranda Lambert" },
+            { name: "Missy Elliot" },
+            { name: "Naomi Campbell" },
+            { name: "Napoleon Dynamite" },
+            { name: "Natalie Portman" },
+            { name: "Nicole Kidman" },
+            { name: "Oprah Winfrey" },
+            { name: "Orlando Bloom" },
+            { name: "Owen Wilson" },
+            { name: "Paris Hilton" },
+            { name: "Paul McCartney" },
+            { name: "Patrick Dempsey" },
+            { name: "Paula Abdul" },
+            { name: "Penelope Cruz" },
+            { name: "Pink" },
+            { name: "Prince Harry" },
+            { name: "Prince William" },
+            { name: "Queen Latifah" },
+            { name: "Ray Charles" },
+            { name: "Rachel McAdams" },
+            { name: "Reese Witherspoon" },
+            { name: "Renee Zellweger" },
+            { name: "Rihanna" },
+            { name: "Robert Downey Jr." },
+            { name: "Robert Pattinson" },
+            { name: "Rosie O'Donnell" },
+            { name: "Ryan Gosling" },
+            { name: "Ryan Reynolds" },
+            { name: "Ryan Seacrest" },
+            { name: "Sandra Bullock" },
+            { name: "Sarah Jessica Parker" },
+            { name: "Scarlett Johansson" },
+            { name: "Selena Gomez" },
+            { name: "Shakira" },
+            { name: "Shia LeBeouf" },
+            { name: "Simon Cowell" },
+            { name: "Sofia Vergara" },
+            { name: "Shirley Temple" },
+            { name: "Steve Carrell" },
+            { name: "Taylor Swift" },
+            { name: "Tiger Woods" },
+            { name: "Tim McGraw" },
+            { name: "Tina Fey" },
+            { name: "Tom Brady" },
+            { name: "Twiggy" },
+            { name: "Tom Cruise" },
+            { name: "Tyra Banks" },
+            { name: "Usher" },
+            { name: "Vanessa Hudgens" },
+            { name: "Victoria Beckham" },
+            { name: "Whitney Houston" },
+            { name: "Will Smith" },
+            { name: "Will Ferrell" },
+            { name: "Zac Efron" },
+            { name: "Zooey Deschanel" },
+		],
+		$input = $('.search_who'),
+		random_index;
+
+    //make list for slots recursively and call spin when complete
+    function makeSlotList(list){
+    	//could choose one random index and then populate with next 18 values instead, but need to account for looping at end
+        if(list.length<20){//length chosen based on appearance of spin, can be changed
+            var index = _.random(msa.length-1);
+            if(list.length===1){
+            	/*
+            		This index will be second item in the list, which is our winning number
+            		Save this for future reference
+					Instead of saving it, we could get the index attribute from the list item we end on
+				*/
+                random_index = index;
+            }
+            list.push( '<li index='+_.random(msa.length-1)+'>'+msa[index].name+'</li>' );
+            return makeSlotList(list);
+        } else {
+            //slot list is complete
+            //clear search field
+            $input.val('');
+            //attach list, show jslots, run animation
+            $('#slot_who').html(list.join('')).parent().show().trigger('spin');
+            return list;
+        }
+    }
+
+    //before spinning, build out list to spin through and insert into the DOM
+    function makeSlots(){
+        //start with current value
+        var list = ['<li>'+$input.val()+'</li>'];
+
+        //call recursive list builder that won't spin slots until it's finished
+        makeSlotList(list);
+    }
+
+    $('#slot_who').jSlots({
+        number: 1,
+        spinner : '.jSlots-wrapper_who',
+        spinEvent: 'spin',
+        time: 300,
+        loops: 1,
+        endNum: 2,//spins backwards through the list. endNum 1 ends on the same value we started on
+        onEnd: function(finalElement){
+            //set result
+            $input.val(msa[random_index].name);
+            //hide spinner
+            $(this.spinner).hide();
+        }
+    });
+    
+
+    //bind random button
+    $('#random_location_who').on('click', makeSlots);
+});
+</script>
+
+</script>
+
+</body>
+
+
+
+<body>
+
+
+
+<div id="slot_wrapper_what">
+    <input class="search_what" type="text">
+    <div style="display: none;" class="jSlots-wrapper_what">
+        <ul style="position: relative; display: block; top: -30px;" id="slot_what">
+            <li></li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+            <li index="18">in</li>
+            <li index="19">blue</li>
+            <li index="18">pants</li>
+            <li index="11">MA</li>
+            <li index="4">WV</li>
+            <li index="13">ID</li>
+            <li index="19">OR</li>
+            <li index="31">IN</li>
+            <li index="1">AL</li>
+            <li index="9">VA</li>
+            <li index="46">WA</li>
+            <li index="11">GA</li>
+            <li index="26">WV</li>
+            <li index="25">GA</li>
+            <li index="5">ID</li>
+            <li index="17">TX</li>
+            <li index="17">X</li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+            <li index="17">TX</li>
+            <li index="17">X</li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+            <li index="18">in</li>
+            <li index="19">blue</li>
+            <li index="18">pants</li>
+            <li index="11">MA</li>
+            <li index="4">WV</li>
+            <li index="13">ID</li>
+            <li index="19">OR</li>
+            <li index="31">IN</li>
+            <li index="1">AL</li>
+            <li index="9">VA</li>
+            <li index="46">WA</li>
+            <li index="11">GA</li>
+            <li index="26">WV</li>
+            <li index="25">GA</li>
+            <li index="5">ID</li>
+            <li index="17">TX</li>
+            <li index="17">X</li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+            <li index="17">TX</li>
+            <li index="17">X</li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>  
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+            <li index="18">in</li>
+            <li index="19">blue</li>
+            <li index="18">pants</li>
+            <li index="11">MA</li>
+            <li index="4">WV</li>
+            <li index="13">ID</li>
+            <li index="19">OR</li>
+            <li index="31">IN</li>
+            <li index="1">AL</li>
+            <li index="9">VA</li>
+            <li index="46">WA</li>
+            <li index="11">GA</li>
+            <li index="26">WV</li>
+            <li index="25">GA</li>
+            <li index="5">ID</li>
+            <li index="17">TX</li>
+            <li index="17">X</li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+            <li index="17">TX</li>
+            <li index="17">X</li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>  
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+            <li index="18">in</li>
+            <li index="19">blue</li>
+            <li index="18">pants</li>
+            <li index="11">MA</li>
+            <li index="4">WV</li>
+            <li index="13">ID</li>
+            <li index="19">OR</li>
+            <li index="31">IN</li>
+            <li index="1">AL</li>
+            <li index="9">VA</li>
+            <li index="46">WA</li>
+            <li index="11">GA</li>
+            <li index="26">WV</li>
+            <li index="25">GA</li>
+            <li index="5">ID</li>
+            <li index="17">TX</li>
+            <li index="17">X</li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+            <li index="17">TX</li>
+            <li index="17">X</li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+        
+        </ul>
+    </div>
+</div>
+
+<button type="button" id="random_location_what">Spin</button>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/underscore.js"></script>
+<script src="js/jquery.jSlots_what.js"></script>
+<script>
+
+$(function() {
+
+    var msa = [
+            { name: "eating a burger " },
+            { name: " using a pota-potty " },
+            { name: "farting" },
+            { name: "sharting" },
+            { name: "running with scissors" },
+            { name: "getting spanked" },
+            { name: "slapping the president" },
+            { name: "doing yoga" },
+            { name: "drinking ketchup" },
+            { name: "being a cat" },
+            { name: "giving themselves a haircut" },
+            { name: "at a music festival" },
+            { name: "making a daisy chain" },
+            { name: "getting their mustache waxed" },
+            { name: "making pottery" },
+            { name: "fainting" },
+            { name: "naked in space" },
+            { name: "slapping a monkey" },
+            { name: "scuba diving with a cat" },
+            { name: "riding an elephant with wings" },
+            { name: "smoking a joint in the whitehouse" },
+            { name: "grooming a stuffed cat" },
+            { name: "eating trash with an alien" },
+            { name: "running naked at the zoo" },
+            { name: "stealing candy from a baby" },
+            { name: "being arrested" },
+            { name: "punching a cop" },
+            { name: "as a fly" },
+            { name: "as a bum" },
+            { name: "as a dog" },
+            { name: "as a cat" },
+            { name: "driving a burgermobile" },
+            { name: "in a chicken costume" },
+            { name: "sacrificing a goat" },
+            { name: "sleeping in a cave" },
+            { name: "eating too much pie" },
+            { name: "running through a field naked" },
+            { name: "slapping the president" },
+            { name: "as a first grader" },
+            { name: "smoking pot" },
+            { name: "robbing a bank naked" },
+            { name: "naked in space" },
+            { name: "eating cake naked" },
+            { name: "naked on mars" },
+            { name: "riding a moped naked" },
+            { name: "in a pool of money" },
+            { name: "in a pool of noodles" },
+            { name: "in a pool of lemons" },
+            { name: "with an extra nipple" },
+            { name: "riding a seahorse" },
+            { name: "as a mermaid(man)" },
+            { name: "doing gymnastics" },
+            { name: "in the circus" },
+            { name: "eating pudding" },
+            { name: "jumping off a cliff" },
+            { name: "jumping into a pool of jam" },
+            { name: "lighting fireworks in the library" },
+            { name: "stealing christmas" },
+            { name: "fighting santa" },
+            { name: "fighting the easter bunny" },
+            { name: "fighting a leprechaun" },
+            { name: "fighting a squirrel" },
+            { name: "building a rocketship" },
+            { name: "in a bathtub" },
+            { name: "running from an old lady" },
+            { name: "climbing the eiffel tower" },
+            { name: "playing piano on a mountain " },
+            { name: "cleaning the cat litter box" },
+            { name: "at the disco" },
+            { name: "in the 50’s" },
+            { name: "with no hair" },
+            { name: "with too much hair" },
+            { name: "in the shower" },
+            { name: "climbing a mountain naked" },
+            { name: "holding you like a baby" },
+            { name: "on a camel" },
+            { name: "on a mushroom trip" },
+            { name: "with sasquatch" },
+            { name: "in oregon" },
+            { name: "on a bike with no wheels" },
+            { name: "riding a bear" },
+            { name: "on a tractor" },
+            { name: "playing with a cat" },
+            { name: "snuggling a cat" },
+            { name: "playing with puppies" },
+            { name: "high fiving batman" },
+            { name: "sleeping in a racecar bed" },
+            { name: "camping with _______" },
+            { name: "swimming in a coffee cup" },
+            { name: "swimming in a fish tank" },
+            { name: "spilling hot coffee" },
+            { name: "on the moon with a banana" },
+            { name: "eating kale chips" },
+            { name: "drinking cheese" },
+            { name: "playing a kazoo for whales" },
+            { name: "eating soup from a pumpkin" },
+            { name: "hunting with sarah palin" },
+            { name: "as a hipster" },
+            { name: "as a portlander" },
+            { name: "as a pirate" },
+            { name: "stuck in a pipe" },
+            { name: "covered in hair" },
+            { name: "covered in poop" },
+            { name: "eating cat poop" },
+            { name: "eating yellow snow" },
+            { name: "writing their name in the snow" },
+            { name: "eating white dog poop" },
+            { name: "coding a website" },
+            { name: "trying to pass garimas class" },
+            { name: "tanning on a iceberg" },
+            { name: "camping on a highway" },
+            { name: "fishing in a wine glass" },
+            { name: "drinking a jug of milk" },
+            { name: "floating on a cookie raft" },
+
+
+        ],
+        $input = $('.search_what'),
+        random_index;
+
+    //make list for slots recursively and call spin when complete
+    function makeSlotList(list){
+        //could choose one random index and then populate with next 18 values instead, but need to account for looping at end
+        if(list.length<20){//length chosen based on appearance of spin, can be changed
+            var index = _.random(msa.length-1);
+            if(list.length===1){
+                /*
+                    This index will be second item in the list, which is our winning number
+                    Save this for future reference
+                    Instead of saving it, we could get the index attribute from the list item we end on
+                */
+                random_index = index;
+            }
+            list.push( '<li index='+_.random(msa.length-1)+'>'+msa[index].name+'</li>' );
+            return makeSlotList(list);
+        } else {
+            //slot list is complete
+            //clear search field
+            $input.val('');
+            //attach list, show jslots, run animation
+            $('#slot_what').html(list.join('')).parent().show().trigger('spin');
+            return list;
+        }
+    }
+
+    //before spinning, build out list to spin through and insert into the DOM
+    function makeSlots(){
+        //start with current value
+        var list = ['<li>'+$input.val()+'</li>'];
+
+        //call recursive list builder that won't spin slots until it's finished
+        makeSlotList(list);
+    }
+
+    $('#slot_what').jSlots({
+        number: 1,
+        spinner : '.jSlots-wrapper_what',
+        spinEvent: 'spin',
+        time: 300,
+        loops: 1,
+        endNum: 2,//spins backwards through the list. endNum 1 ends on the same value we started on
+        onEnd: function(finalElement){
+            //set result
+            $input.val(msa[random_index].name);
+            //hide spinner
+            $(this.spinner).hide();
+        }
+    });
+    
+
+    //bind random button
+    $('#random_location_what').on('click', makeSlots);
+});
+</script>
+
+</script>
+
+</body>
+
+
+
+
+
+
+<body>
+
+
+
+
+
+<div id="slot_wrapper_wild">
+    <input class="search_wild" type="text">
+    <div style="display: none;" class="jSlots-wrapper_wild">
+        <ul style="position: relative; display: block; top: -30px;" id="slot_wild">
+            <li></li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+            <li index="18">in</li>
+            <li index="19">blue</li>
+            <li index="18">pants</li>
+            <li index="11">MA</li>
+            <li index="4">WV</li>
+            <li index="13">ID</li>
+            <li index="19">OR</li>
+            <li index="31">IN</li>
+            <li index="1">AL</li>
+            <li index="9">VA</li>
+            <li index="46">WA</li>
+            <li index="11">GA</li>
+            <li index="26">WV</li>
+            <li index="25">GA</li>
+            <li index="5">ID</li>
+            <li index="17">TX</li>
+            <li index="17">X</li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+            <li index="17">TX</li>
+            <li index="17">X</li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+            <li index="18">in</li>
+            <li index="19">blue</li>
+            <li index="18">pants</li>
+            <li index="11">MA</li>
+            <li index="4">WV</li>
+            <li index="13">ID</li>
+            <li index="19">OR</li>
+            <li index="31">IN</li>
+            <li index="1">AL</li>
+            <li index="9">VA</li>
+            <li index="46">WA</li>
+            <li index="11">GA</li>
+            <li index="26">WV</li>
+            <li index="25">GA</li>
+            <li index="5">ID</li>
+            <li index="17">TX</li>
+            <li index="17">X</li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+            <li index="17">TX</li>
+            <li index="17">X</li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>  
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+            <li index="18">in</li>
+            <li index="19">blue</li>
+            <li index="18">pants</li>
+            <li index="11">MA</li>
+            <li index="4">WV</li>
+            <li index="13">ID</li>
+            <li index="19">OR</li>
+            <li index="31">IN</li>
+            <li index="1">AL</li>
+            <li index="9">VA</li>
+            <li index="46">WA</li>
+            <li index="11">GA</li>
+            <li index="26">WV</li>
+            <li index="25">GA</li>
+            <li index="5">ID</li>
+            <li index="17">TX</li>
+            <li index="17">X</li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+            <li index="17">TX</li>
+            <li index="17">X</li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>  
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+            <li index="18">in</li>
+            <li index="19">blue</li>
+            <li index="18">pants</li>
+            <li index="11">MA</li>
+            <li index="4">WV</li>
+            <li index="13">ID</li>
+            <li index="19">OR</li>
+            <li index="31">IN</li>
+            <li index="1">AL</li>
+            <li index="9">VA</li>
+            <li index="46">WA</li>
+            <li index="11">GA</li>
+            <li index="26">WV</li>
+            <li index="25">GA</li>
+            <li index="5">ID</li>
+            <li index="17">TX</li>
+            <li index="17">X</li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+            <li index="17">TX</li>
+            <li index="17">X</li>
+            <li index="40">fat</li>
+            <li index="24">wake</li>
+            <li index="1">dog</li>
+        
+        </ul>
+    </div>
+</div>
+
+<button type="button" id="random_location_wild">Spin</button>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/underscore.js"></script>
+<script src="js/jquery.jSlots_wild.js"></script>
+<script>
+
+$(function() {
+
+    var msa = [
+            { name: "mistletoe" },
+            { name: "marshmallow" },
+            { name: "a gaggle of geese" },
+            { name: "easy cheese" },
+            { name: "cool whip" },
+            { name: "PLS(pumpkin spice latte)" },
+            { name: "handkerchief" },
+            { name: "cat" },
+            { name: "frog" },
+            { name: "fork" },
+            { name: "goat" },
+            { name: "whale" },
+            { name: "lamp" },
+            { name: "chain" },
+            { name: "cart" },
+            { name: "rice" },
+            { name: "kiss" },
+            { name: "snow" },
+            { name: "fish" },
+            { name: "hammer" },
+            { name: "fir coat" },
+            { name: "crowbar" },
+            { name: "balloon" },
+            { name: "siracha" },
+            { name: "sattellite" },
+            { name: "3 gal of mayonnaise" },
+            { name: "relish" },
+            { name: "fry sauce" },
+            { name: "diamonds" },
+            { name: "shaman stick" },
+            { name: "lingerie" },
+            { name: "strap on" },
+            { name: "tufu" },
+            { name: "furballs" },
+            { name: "lint" },
+            { name: "dryer sheets" },
+            { name: "dog poop" },
+            { name: "kitty litter" },
+            { name: "bird seed" },
+            { name: "chicken legs" },
+            { name: "frog legs" },
+            { name: "wings" },
+            { name: "mosquitoes" },
+            { name: "tire swing" },
+            { name: "black cats" },
+            { name: "unicycle" },
+            { name: "black rat" },
+            { name: "raccoon" },
+            { name: "merkats" },
+            { name: "bean shaped swimming pool" },
+            { name: "toaster paistries" },
+            { name: "ego waffles" },
+            { name: "candles" },
+            { name: "beeswax" },
+            { name: "earwax" },
+            { name: "stop sign" },
+            { name: "growths" },
+            { name: "warts" },
+            { name: "fungus" },
+            { name: "strings of pearls" },
+            { name: "scrubs" },
+            { name: "yellow sponge" },
+            { name: "sponge cake" },
+            { name: "rubber duck" },
+            { name: "rubbers" },
+            { name: "scabs" },
+            { name: "malt balls" },
+            { name: "meat balls" },
+            { name: "peaches" },
+            { name: "dock" },
+            { name: "Amsterdam" },
+            { name: "Paris" },
+            { name: "Budapest" },
+            { name: "Berlin" },
+            { name: "Las Vegas" },
+            { name: "Tokyo" },
+            { name: "New York" },
+            { name: "Chicago" },
+            { name: "Montreal" },
+            { name: "Mexico City" },
+            { name: "Moscow" },
+            { name: "Sydney" },
+            { name: "Los Angeles" },
+            { name: "Shanghai" },
+            { name: "mascara" },
+            { name: "fake eyelashes" },
+            { name: "lipstick" },
+            { name: "blush" },
+            { name: "80’s eyeshadow" },
+            { name: "cocaine" },
+            { name: "eating" },
+            { name: "marijuana" },
+            { name: "meth" },
+            { name: "eating" },
+            { name: "heroin" },
+            { name: "the white stallion" },
+            { name: "ecstasy" },
+            { name: "LSD" },
+            { name: "psychedelic mushrooms" },
+            { name: "banana" },
+            { name: "cantaloupe" },
+            { name: "honeydew" },
+            { name: "kiwi" },
+            { name: "eating" },
+            { name: "passion fruit" },
+            { name: "mango" },
+            { name: "peach" },
+            { name: "grape" },
+            { name: "apple" },
+            { name: "starfruit" },
+            { name: "spatula" },
+            { name: "ear plugs" },
+            { name: "coconut" },
+            { name: "mints" },
+            { name: "bouquet of carrots" },
+            { name: "cheetah print scarves" },
+            { name: "puppy eyes" },
+            { name: "donut holes" },
+            { name: "stamps" },
+            { name: "rulers" },
+            { name: "scissors" },
+            { name: "pens" },
+            { name: "planes" },
+            { name: "kale" },
+            { name: "playing cards" },
+            { name: "staple gun" },
+            { name: "electric tape" },
+            { name: "eye drops" },
+            { name: "push pins" },
+            { name: "magic" },
+            { name: "magic 8 ball" },
+            { name: "knee highs" },
+            { name: "twix" },
+            { name: "sweats" },
+            { name: "succulents" },
+            { name: "pineapple" },
+            { name: "post card" },
+            { name: "throw pillow" },
+            { name: "hammock" },
+            { name: "breadcrumbs" },
+            { name: "suitcase" },
+            { name: "printer" },
+            { name: "bat" },
+            { name: "belt" },
+            { name: "banana hammock" },
+            { name: "sunglasses" },
+            { name: "polka-dot-bkikini" },
+            { name: "pine needles" },
+            { name: "butterflies" },
+            { name: "owl" },
+            { name: "tutus" },
+            { name: "devil horns" },
+            { name: "angel wings" },
+            { name: "adult diapers" },
+        ],
+        $input = $('.search_wild'),
+        random_index;
+
+    //make list for slots recursively and call spin when complete
+    function makeSlotList(list){
+        //could choose one random index and then populate with next 18 values instead, but need to account for looping at end
+        if(list.length<20){//length chosen based on appearance of spin, can be changed
+            var index = _.random(msa.length-1);
+            if(list.length===1){
+                /*
+                    This index will be second item in the list, which is our winning number
+                    Save this for future reference
+                    Instead of saving it, we could get the index attribute from the list item we end on
+                */
+                random_index = index;
+            }
+            list.push( '<li index='+_.random(msa.length-1)+'>'+msa[index].name+'</li>' );
+            return makeSlotList(list);
+        } else {
+            //slot list is complete
+            //clear search field
+            $input.val('');
+            //attach list, show jslots, run animation
+            $('#slot_wild').html(list.join('')).parent().show().trigger('spin');
+            return list;
+        }
+    }
+
+    //before spinning, build out list to spin through and insert into the DOM
+    function makeSlots(){
+        //start with current value
+        var list = ['<li>'+$input.val()+'</li>'];
+
+        //call recursive list builder that won't spin slots until it's finished
+        makeSlotList(list);
+    }
+
+    $('#slot_wild').jSlots({
+        number: 1,
+        spinner : '.jSlots-wrapper_wild',
+        spinEvent: 'spin',
+        time: 300,
+        loops: 1,
+        endNum: 2,//spins backwards through the list. endNum 1 ends on the same value we started on
+        onEnd: function(finalElement){
+            //set result
+            $input.val(msa[random_index].name);
+            //hide spinner
+            $(this.spinner).hide();
+        }
+    });
+    
+
+    //bind random button
+    $('#random_location_wild').on('click', makeSlots);
+});
+</script>
+
+</script>
+
+</body>
+<body></body>
+<body></body>
+
+                     </div> 
+        </div>
+
+</body>
+
+<body></body>
+
+
+</html>

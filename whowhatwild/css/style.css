@@ -1,0 +1,1212 @@
+
+html{
+	width: 100%;
+	height:100%;
+}
+body{
+	width:100%;
+	height:100%;
+	background-color: black;
+
+}
+
+
+/*Spinners*/
+	li, ul { padding: 0; margin:0; }
+	input {
+		margin: 4px 0;
+		font-family: Arial, sans-serif;
+		font-size: 16px;
+		color: white;
+		padding: 5px 4px 4px;
+		height: 120px;
+		width: 250px;
+		background-color: black;
+		border:none;
+	}
+	#slot li {
+		font-family: Arial, sans-serif;
+		font-size: 16px;
+		padding: 6px 4px 6px 6px;
+		line-height: normal;
+		height: 30px;
+		overflow: hidden;
+	}
+	#slot_wrapper {
+		position: relative;
+	}
+	.jSlots-wrapper {
+		margin: 4px 0;
+    	overflow: hidden; /* to hide the magic */
+    	height: 29px; /* whatever the height of your list items are */
+    	width: 300px;
+    	position: absolute;
+    	top: 0px;
+    	display: none;
+	}
+	#slot {
+		display: none;
+	}
+
+
+
+
+/*Spinners*/
+
+
+
+
+.neon{
+	height: 100%;
+	width:100%;
+	position: absolute;
+}
+.blue{
+	width: 98%;
+	height:3000px;
+	border: #6eea2d solid 6px;
+	
+	display: inline-block;
+	position: absolute;
+	border-radius: 5px;
+	left:-1px;
+}
+.pink{
+	width: 96%;
+	height:2950px;
+	border: #ed2c92 solid 6px;
+	display: inline-block;
+	position: absolute;
+	margin:5px;
+	border-radius: 5px;
+	left:10px;
+	top:10px;
+}
+.logo{
+	display:inline-block;
+	position: absolute;
+	right: 300px;
+	top: 30px;
+	margin:0 auto;
+	
+}
+
+
+.who{
+	width:250px;
+	height:200px;
+	display:inline-block;
+	position: absolute;
+	background-color: black;
+	top: 300px;
+	left: 100px;
+	
+}
+
+
+.what{
+	width:250px;
+	height:200px;
+	display:inline-block;
+	position: absolute;
+	background-color: black;
+	top: 300px;
+	left: 450px;
+	
+}
+.wild{
+	width:250px;
+	height:200px;
+	display:inline-block;
+	position: absolute;
+	background-color: black;
+	top: 300px;
+	left: 775px;
+}
+
+
+
+
+.spinner{
+	display:inline-block;
+	position: absolute;
+	right:100px;
+	top: 200px;
+}
+
+.upload{
+	display:inline-block;
+	position: absolute;
+	left:400px;
+	top: 1300px;
+}
+
+
+
+/* Media Queries*/
+
+
+@media screen and (max-width: 2600px) {
+
+
+html{
+	width: 1024px;
+	height:100%;
+}
+body{
+	width:1024px;
+	height:100%;
+
+
+}
+.mid{
+	width:1400px;
+	height: auto;
+}
+.top{
+	width: 750px;
+	height: auto;
+}
+
+
+.neon{
+	height: 1024px;
+	width:100%;
+
+}
+.blue{
+	margin:2px;
+	width: 2000px;
+	height:3000px;
+	left:-1px;
+}
+.pink{
+	width: 1960px;
+	height:2950px;
+	left:10px;
+	top:10px;
+	margin:5px;
+
+}
+.logo{
+	left:650px;
+	top: 30px;
+	
+}
+input{
+	width:350px;
+	height:200px;
+}
+.who{
+	width:350px;
+	height:250px;
+	top: 355px;
+	left: 90px;
+	
+}
+
+.what{
+	width:350px;
+	height:250px;
+	top: 355px;
+	left: 485px;
+	
+}
+.wild{
+	width:350px;
+	height:250px;
+	top: 355px;
+	left: 870px;
+}
+
+
+.spinner{
+	left:300px;
+	top: 230px;
+}
+
+.upload{
+	left:780px;
+	top: 1300px;
+}
+
+}
+
+
+@media screen and (max-width: 1800px) {
+
+
+html{
+	width: 1024px;
+	height:100%;
+}
+body{
+	width:1024px;
+	height:100%;
+
+
+}
+.mid{
+	width:1200px;
+	height: auto;
+}
+.top{
+	width: 750px;
+	height: auto;
+}
+
+
+.neon{
+	height: 1024px;
+	width:100%;
+
+}
+.blue{
+	margin:2px;
+	width: 1760px;
+	height:3000px;
+	left:-1px;
+}
+.pink{
+	width: 1720px;
+	height:2950px;
+	left:10px;
+	top:10px;
+	margin:5px;
+
+}
+.logo{
+	left:500px;
+	top: 30px;
+	
+}
+
+input{
+	width:300px;
+	height:150px;
+}
+
+.who{
+	width:300px;
+	height:200px;
+	top: 315px;
+	left: 75px;
+	
+}
+
+
+.what{
+	width:300px;
+	height:200px;
+	top: 315px;
+	left: 415px;
+	
+}
+.wild{
+	width:300px;
+	height:200px;
+	top: 315px;
+	left: 750px;
+}
+
+.spinner{
+	left:250px;
+	top: 230px;
+}
+
+.upload{
+	left:700px;
+	top: 1300px;
+}
+
+}
+
+
+@media screen and (max-width: 1666px) {
+
+
+html{
+	width: 1024px;
+	height:100%;
+}
+body{
+	width:1024px;
+	height:100%;
+
+
+}
+.mid{
+	width:1200px;
+	height: auto;
+}
+.top{
+	width: 750px;
+	height: auto;
+}
+
+
+.neon{
+	height: 1024px;
+	width:100%;
+
+}
+.blue{
+	margin:2px;
+	width: 1620px;
+	height:3000px;
+	left:-1px;
+}
+.pink{
+	width: 1580px;
+	height:2950px;
+	left:10px;
+	top:10px;
+	margin:5px;
+
+}
+
+input{
+	width:250px;
+	height:150px;
+}
+
+.who{
+	width:250px;
+	height:200px;
+	top: 300px;
+	left: 100px;
+	
+}
+
+
+.what{
+	width:250px;
+	height:200px;
+	top: 300px;
+	left: 450px;
+	
+}
+.wild{
+	width:250px;
+	height:200px;
+	top: 300px;
+	left: 775px;
+}
+
+
+
+.logo{
+	left:445px;
+	top: 30px;
+	
+}
+.spinner{
+	left:190px;
+	top: 230px;
+}
+
+.upload{
+	left:560px;
+	top: 1300px;
+}
+
+}
+
+
+
+@media screen and (max-width: 1500px) {
+
+
+html{
+	width: 1024px;
+	height:100%;
+}
+body{
+	width:1024px;
+	height:100%;
+
+
+}
+.mid{
+	width:1200px;
+	height: auto;
+}
+.top{
+	width: 750px;
+	height: auto;
+}
+
+
+.neon{
+	height: 1024px;
+	width:100%;
+
+}
+.blue{
+	margin:2px;
+	width: 1460px;
+	height:3000px;
+	left:-1px;
+}
+.pink{
+	width: 1420px;
+	height:2950px;
+	left:10px;
+	top:10px;
+	margin:5px;
+
+}
+.logo{
+	left:365px;
+	top: 30px;
+	
+}
+input{
+	width:250px;
+	height:150px;
+}
+
+.who{
+	width:250px;
+	height:200px;
+	top: 300px;
+	left: 100px;
+	
+}
+
+
+.what{
+	width:250px;
+	height:200px;
+	top: 300px;
+	left: 450px;
+	
+}
+.wild{
+	width:250px;
+	height:200px;
+	top: 300px;
+	left: 775px;
+}
+
+.spinner{
+	left:120px;
+	top: 230px;
+}
+
+.upload{
+	left:470px;
+	top: 1300px;
+}
+
+}
+
+
+
+@media screen and (max-width: 1345px) {
+
+
+html{
+	width: 1024px;
+	height:100%;
+}
+body{
+	width:1024px;
+	height:100%;
+
+
+}
+.mid{
+	width:1100px;
+	height: auto;
+}
+.top{
+	width:auto ;
+	height: auto;
+}
+
+.neon{
+	height: 1024px;
+	width:100%;
+
+}
+.blue{
+	margin:2px;
+	width: 1300px;
+	height:3000px;
+	left:-1px;
+}
+.pink{
+	width: 1260px;
+	height:2950px;
+	left:10px;
+	top:10px;
+	margin:5px;
+
+}
+.logo{
+	left:345px;
+	top: 30px;
+	
+}
+
+input{
+	width:250px;
+	height:150px;
+}
+
+.who{
+	width:250px;
+	height:200px;
+	top: 280px;
+	left: 80px;
+	
+}
+
+
+.what{
+	width:250px;
+	height:200px;
+	top: 280px;
+	left: 390px;
+	
+}
+.wild{
+	width:250px;
+	height:200px;
+	top: 280px;
+	left: 700px;
+}
+
+
+.spinner{
+	left:100px;
+	top: 200px;
+}
+
+.upload{
+	left:410px;
+	top: 1300px;
+}
+
+}
+
+
+@media screen and (max-width: 1202px) {
+
+
+html{
+	width: 1024px;
+	height:100%;
+}
+body{
+	width:1024px;
+	height:100%;
+
+
+}
+.mid{
+	width:auto;
+	height: auto;
+}
+.top{
+	width:auto ;
+	height: auto;
+}
+
+.neon{
+	height: 1024px;
+	width:100%;
+
+}
+.blue{
+	margin:2px;
+	width: 1160px;
+	height:3000px;
+	left:-1px;
+}
+.pink{
+	width: 1120px;
+	height:2950px;
+	left:10px;
+	top:10px;
+	margin:5px;
+
+}
+.logo{
+	left:265px;
+	top: 30px;
+	
+}
+
+input{
+	width:250px;
+	height:150px;
+}
+
+.who{
+	width:250px;
+	height:200px;
+	top: 260px;
+	left: 80px;
+	
+}
+
+
+.what{
+	width:250px;
+	height:200px;
+	top: 260px;
+	left: 370px;
+	
+}
+.wild{
+	width:250px;
+	height:200px;
+	top: 260px;
+	left: 670px;
+}
+.spinner{
+	left:50px;
+	top: 200px;
+}
+
+.upload{
+	left:365px;
+	top: 1300px;
+}
+
+}
+
+
+
+@media screen and (max-width: 1111px) {
+
+
+html{
+	width: 1024px;
+	height:100%;
+}
+body{
+	width:1024px;
+	height:100%;
+
+
+}
+.mid{
+	width:900px ;
+	height: auto;
+}
+.top{
+	width:auto ;
+	height: auto;
+}
+
+.neon{
+	height: 1024px;
+	width:100%;
+
+}
+.blue{
+	margin:2px;
+	width: 1070px;
+	height:3000px;
+	left:-1px;
+}
+.pink{
+	width: 1030px;
+	height:2950px;
+	left:10px;
+	top:10px;
+	margin:5px;
+
+}
+.logo{
+	left:215px;
+	top: 30px;
+	
+}
+
+input{
+	width:200px;
+	height:130px;
+}
+
+.who{
+	width:200px;
+	height:180px;
+	top: 220px;
+	left: 70px;
+	
+}
+
+
+.what{
+	width:200px;
+	height:180px;
+	top: 220px;
+	left: 320px;
+	
+}
+.wild{
+	width:200px;
+	height:180px;
+	top: 220px;
+	left: 575px;
+}
+
+
+
+
+.spinner{
+	left:80px;
+	top: 200px;
+}
+
+.upload{
+	left:315px;
+	top: 1300px;
+}
+
+}
+
+@media screen and (max-width: 1030px) {
+
+
+html{
+	width: 1024px;
+	height:100%;
+}
+body{
+	width:1024px;
+	height:100%;
+
+
+}
+.mid{
+	width:900px ;
+	height: auto;
+}
+
+.top{
+	width:auto ;
+	height: auto;
+}
+.neon{
+	height: 1024px;
+	width:100%;
+
+}
+.blue{
+	margin:2px;
+	width: 995px;
+	height:3000px;
+	left:-1px;
+}
+.pink{
+	width: 950px;
+	height:2950px;
+	left:10px;
+	top:10px;
+	margin:5px;
+
+}
+.logo{
+	left:175px;
+	top: 30px;
+	
+}
+input{
+	width:200px;
+	height:130px;
+}
+
+.who{
+	width:200px;
+	height:180px;
+	top: 220px;
+	left: 70px;
+	
+}
+
+
+.what{
+	width:200px;
+	height:180px;
+	top: 220px;
+	left: 320px;
+	
+}
+.wild{
+	width:200px;
+	height:180px;
+	top: 220px;
+	left: 575px;
+}
+
+
+.spinner{
+	left:40px;
+	top: 200px;
+}
+
+.upload{
+	left:275px;
+	top: 1300px;
+}
+
+}
+@media screen and (max-width: 964px) {
+html{
+	width: 1024px;
+	height:100%;
+}
+body{
+	width:1024px;
+	height:100%;
+
+
+}
+.mid{
+	width:850px ;
+	height: auto;
+}
+.top{
+	width:auto ;
+	height: auto;
+}
+
+.neon{
+	height: 1024px;
+	width:100%;
+
+}
+.blue{
+	margin:2px;
+	width: 925px;
+	height:3000px;
+	left:-1px;
+}
+.pink{
+	width: 880px;
+	height:2950px;
+	left:10px;
+	top:10px;
+	margin:5px;
+
+}
+.logo{
+	left:125px;
+	top: 30px;
+	
+}
+
+input{
+	width:200px;
+	height:130px;
+}
+
+.who{
+	width:200px;
+	height:180px;
+	top: 200px;
+	left: 65px;
+	
+}
+
+
+.what{
+	width:200px;
+	height:180px;
+	top: 200px;
+	left: 300px;
+	
+}
+.wild{
+	width:200px;
+	height:180px;
+	top: 200px;
+	left: 535px;
+}
+
+
+.spinner{
+	left:40px;
+	top: 200px;
+}
+
+.upload{
+	left:225px;
+	top: 1300px;
+}
+
+}
+@media screen and (max-width: 904px) {
+html{
+	width: 1024px;
+	height:100%;
+}
+body{
+	width:1024px;
+	height:100%;
+
+
+}
+.mid{
+	width:800px ;
+	height: auto;
+}
+.top{
+	width:auto ;
+	height: auto;
+}
+
+
+.neon{
+	height: 1024px;
+	width:100%;
+
+}
+.blue{
+	margin:2px;
+	width: 860px;
+	height:3000px;
+	left:-1px;
+}
+.pink{
+	width: 820px;
+	height:2950px;
+	left:10px;
+	top:10px;
+	margin:5px;
+
+}
+.logo{
+	left:100px;
+	top: 30px;
+	
+}
+
+input{
+	width:150px;
+	height:100px;
+}
+
+
+.who{
+	width:150px;
+	height:150px;
+	top: 200px;
+	left: 65px;
+	
+}
+
+
+.what{
+	width:150px;
+	height:150px;
+	top: 200px;
+	left: 300px;
+	
+}
+.wild{
+	width:150px;
+	height:150px;
+	top: 200px;
+	left: 535px;
+}
+
+
+
+.spinner{
+	left:20px;
+	top: 230px;
+}
+
+.upload{
+	left:200px;
+	top: 1300px;
+}
+
+}
+@media screen and (max-width:750px) {
+
+html{
+	width: 1024px;
+	height:100%;
+}
+body{
+	width:1024px;
+	height:100%;
+
+
+}
+.mid{
+	width:675px ;
+	height: auto;
+}
+.top{
+	width:auto ;
+	height: auto;
+}
+
+
+.neon{
+	height: 1024px;
+	width:100%;
+
+}
+.blue{
+	margin:2px;
+	width: 700px;
+	height:3000px;
+	left:-1px;
+}
+.pink{
+	width:660px;
+	height:2950px;
+	left:10px;
+	top:10px;
+	margin:5px;
+
+}
+.logo{
+	left:30px;
+	top: 30px;
+	
+}
+
+input{
+	width:150px;
+	height:100px;
+}
+
+.who{
+	width:150px;
+	height:150px;
+	top: 160px;
+	left: 55px;
+	
+}
+
+
+.what{
+	width:150px;
+	height:150px;
+	top: 160px;
+	left: 240px;
+	
+}
+.wild{
+	width:150px;
+	height:150px;
+	top: 160px;
+	left: 430px;
+}
+
+
+
+.spinner{
+	left:10px;
+	top: 250px;
+}
+
+.upload{
+	left:140px;
+	top: 1300px;
+}
+
+}
+@media screen and (max-width:400px) {
+
+html{
+	width: 1024px;
+	height:100%;
+}
+body{
+	width:1024px;
+	height:100%;
+
+
+}
+.mid{
+	width:315px ;
+	height: auto;
+}
+.top{
+	width:315px ;
+	height: auto;
+}
+.butt{
+	width:285px ;
+	height: auto;
+
+}
+
+
+.neon{
+	height: 1024px;
+	width:100%;
+
+}
+.blue{
+	margin:2px;
+	width: 360px;
+	height:3000px;
+	left:-1px;
+}
+.pink{
+	width:315px;
+	height:2950px;
+	left:10px;
+	top:10px;
+	margin:5px;
+
+}
+.logo{
+	left:20px;
+	top: 30px;
+	
+}
+
+input{
+	width:50px;
+	height:10px;
+}
+
+.who{
+	width:50px;
+	height:50px;
+	top:85px;
+	left: 35px;
+	
+}
+
+
+.what{
+	width:50px;
+	height:50px;
+	top: 85px;
+	left: 120px;
+	
+}
+.wild{
+	width:50px;
+	height:50px;
+	top: 85px;
+	left: 210px;
+}
+.spinner{
+	left:18px;
+	top: 250px;
+}
+
+.upload{
+	left:40px;
+	top: 1300px;
+}
+
+}
+
+
+
